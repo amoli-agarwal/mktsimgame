@@ -204,7 +204,7 @@ function qualitativeOutcome(score: number) {
   };
 }
 
-function roundDescriptor(option: Option | null, role: Role, rank: number) {
+function roundDescriptor(option: Option | null, rank: number) {
   if (!option) return { title: '', text: '' };
 
   if (option.tier === 'best') {
@@ -374,7 +374,7 @@ export default function App() {
       <div className="viewport">
         <div className="wrap fade" key={`landing:${animKey}`}>
           <h1>Market Simulation Game: Fintech Disruption</h1>
-          <p className="lead">A solo scenario about shocks and strategy.</p>
+          <p className="lead">Discover the shock responses and strategy of different financial entities.</p>
           <button className="nav-button" onClick={() => fadeTo('intro')} disabled={busy}>Play</button>
         </div>
       </div>
@@ -598,7 +598,7 @@ if (screen === 'round' && role !== undefined) {
 if (screen === 'result' && role !== undefined) {
   const current: Round = ROUNDS[Math.min(idx, ROUNDS.length - 1)];
   const rank = Math.max(0, current.rank_order.indexOf(role));
-  const desc = roundDescriptor(lastChoice, role, rank);
+  const desc = roundDescriptor(lastChoice, rank);
 
   return (
     <div className="viewport">
