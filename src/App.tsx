@@ -64,7 +64,7 @@ const FACTS: Record<
     wholesale_bank: {
       title: 'Liquidity Crunch - Wholesale Bank',
       text:
-        'Wholesale banks have reduced their reliance on volatile wholesale funding (interbank loans, repos, commercial paper) over time and have built more stable retail deposit bases. For example, after the 2008 financial crisis, many large European banks pivoted away from wholesale funding toward deposits, reflecting Basel III’s Net Stable Funding Ratio (NSFR) requirements. This improved resilience but compressed margins since retail deposits are more expensive to gather.'
+        'Although wholesale banks have traditionally used wholesale funding like interbank loans, repos, and commercial paper, they are facing pressure to reduce reliance on these funding sources and build more stable retail deposit bases. For example, after the 2008 financial crisis, many large European banks pivoted away from wholesale funding toward deposits, reflecting Basel III’s Net Stable Funding Ratio (NSFR) requirements. This improved resilience but compressed margins since retail deposits are more expensive to gather.'
     },
     fintech: {
       title: 'Liquidity Crunch — Fintech',
@@ -100,7 +100,7 @@ const FACTS: Record<
     big_tech: {
       title: 'Recession — Big Tech',
       text:
-        'Large technology firms use recessions to consolidate market share by deploying cash reserves into acquisitions. For example, between 2008 and 2010, Apple, Microsoft, and Google collectively acquired over 150 companies, strengthening their ecosystems at bargain prices while weaker firms retrenched.'
+        'Large technology platforms have increasingly acted as alternative financiers for small merchants. For instance, Amazon Lending, launched in 2011, had disbursed over $3 billion in loans to sellers by mid-2017, highlighting how these platforms can swiftly inject working capital when traditional lending tightens.'
     },
     crypto: {
       title: 'Recession — Crypto',
@@ -128,7 +128,7 @@ const FACTS: Record<
     crypto: {
       title: 'Trade Fragmentation — Crypto',
       text:
-        'Cryptocurrencies and stablecoins offer parallel payment rails when fragmentation blocks traditional systems. For instance, stablecoins like USDT and USDC are widely used for remittances and trade settlement in countries facing sanctions or FX shortages (e.g., Turkey, Lebanon, Venezuela). In 2024, stablecoin-based cross-border payments exceeded $30B, showing how crypto can bypass traditional rails, but mostly as a workaround rather than a primary system.'
+        'Cryptocurrencies and stablecoins offer parallel payment rails when fragmentation blocks traditional systems. For instance, stablecoins like USDT and USDC are widely used for remittances and trade settlement in countries facing sanctions or FX shortages. In 2024, stablecoin-based cross-border payments exceeded $30B, showing how crypto can bypass traditional rails, but mostly as a workaround rather than a primary system.'
 
     },
   },
@@ -152,7 +152,7 @@ const FACTS: Record<
     crypto: {
       title: 'Fiat Currency Crisis — Crypto',
       text:
-        'Crypto solutions include the promotion of stablecoins (USDT, USDC, DAI) rather than volatile tokens like BTC or ETH. For example, Turkey (lira crisis, 2018 - present), Binance and Tether saw surging demand for USDT - TRY pairs. During the Lebanon 2020 crisis, many locals relied on USDT/USDC for cross-border trade and remittances. And in Venezuela, Circle’s USDC partnered with Airtm and NGOs to distribute aid in dollars rather than bolívars.'
+        'Stablecoins (USDT, USDC, DAI) have historically been promoted as a crypto solution rather than volatile tokens like BTC or ETH. For example, Turkey (lira crisis, 2018 - present), Binance and Tether saw surging demand for USDT - TRY pairs. During the Lebanon 2020 crisis, many locals relied on USDT/USDC for cross-border trade and remittances. And in Venezuela, Circle’s USDC partnered with Airtm and NGOs to distribute aid in dollars rather than bolívars.'
     },
   },
 };
