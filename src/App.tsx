@@ -74,7 +74,7 @@ const FACTS: Record<
     big_tech: {
       title: 'Liquidity Crunch — Big Tech',
       text:
-        'Big tech has built up giant resources of liquid assets to help self-insure against market freezes. After the 2008 financial crisis Apple, Microsoft, and Google aggressively accumulated cash reserves. By the mid-2010s, Apple alone had over $200B in cash and marketable securities. This allowed them to keep investing in R&D and acquisitions even when external financing was tight.'
+        'Big tech has built up giant resources of liquid assets to help self-insure against market freezes. After the 2008 financial crisis, Apple, Microsoft, and Google aggressively accumulated cash reserves. By the mid-2010s, Apple alone had over $200B in cash and marketable securities. This allowed them to keep investing in R&D and acquisitions even when external financing was tight.'
 
     },
     crypto: {
@@ -411,7 +411,7 @@ if (screen === 'rules') {
         <div className="info-panel tight">
           <h2>How it works</h2>
 
-            <p className="lead">There are four rounds. Each begins with a market shock. Choose one option per round. Depending on the role you choose, you may earn more or less points than another player in a given role. Your score reflects how well your choice aligns with the round’s conditions. Aim high; you can receive up to 18 points.</p>
+            <p className="lead">There are four rounds. Each begins with a market shock. Choose one option per round. Depending on the role you choose, you may earn more or less points than another player in a given role. Your score reflects how well your choice aligns with the round’s conditions. Aim high; you can receive up to 18 points total in the game.</p>
         </div>
         <div className="panel-actions">
           <button className="nav-button" onClick={() => fadeTo('role')} disabled={busy}>
