@@ -64,7 +64,7 @@ const FACTS: Record<
     wholesale_bank: {
       title: 'Liquidity Crunch - Wholesale Bank',
       text:
-        'Wholesale banks reduce reliance on volatile wholesale funding (interbank loans, repos, commercial paper) and build more stable retail deposit bases. For example, after the 2008 financial crisis, many large European banks pivoted away from wholesale funding toward deposits, reflecting Basel III’s Net Stable Funding Ratio (NSFR) requirements. This improved resilience but compressed margins since retail deposits are more expensive to gather.'
+        'Wholesale banks have reduced their reliance on volatile wholesale funding (interbank loans, repos, commercial paper) over time and have built more stable retail deposit bases. For example, after the 2008 financial crisis, many large European banks pivoted away from wholesale funding toward deposits, reflecting Basel III’s Net Stable Funding Ratio (NSFR) requirements. This improved resilience but compressed margins since retail deposits are more expensive to gather.'
     },
     fintech: {
       title: 'Liquidity Crunch — Fintech',
